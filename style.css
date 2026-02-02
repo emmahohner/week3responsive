@@ -105,3 +105,41 @@ p {
   box-shadow: var(--box-shadow);
   color: white;
 }
+
+@media (max-width: 576px) {
+
+    h1 {
+        font-size: 48px;
+        line-height: 1.1;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    .navigation-links {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .navigation-links a {
+        width: 90%;
+        text-align: center;
+        padding: 14px 12px;
+        margin: 10px 0;
+    }
+
+    .about-paragraphs {
+        flex-direction: column;
+    }
+
+    .email-link {
+        font-size: 20px;
+        padding: 0 12px;
+    }
+
+}
